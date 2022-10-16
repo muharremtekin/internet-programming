@@ -6,15 +6,15 @@ $numberCount = Count($numbers);
 
 $i = 0;
 
-while($i < $numbersCount)
+while($i < $numberCount)
 {
 	echo $numbers[$i];
 	echo "<br \>";
 	if($numbers[$i] % 2 == 0)
 	{
-		echo "Sayi tek";
+		echo "Sayi cift";
 	}else{
-		echo "sayi cift";
+		echo "sayi tek";
 	}
 	echo "<br \>";
 	$i = $i + 1;
